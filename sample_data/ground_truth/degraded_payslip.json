@@ -1,0 +1,15 @@
+{
+  "document_type": "payslip",
+  "description": "Degraded (skewed, compressed, noisy) payslip sample",
+  "fields": {
+    "EmployeeName": "Sarah Chen",
+    "EmployeeId": "EMP-2024-0471",
+    "Department": "Engineering",
+    "PayPeriodStart": "2024-03-01",
+    "PayPeriodEnd": "2024-03-31",
+    "PayDate": "2024-04-05",
+    "GrossPay": 7787.5,
+    "TotalDeductions": 3207.01,
+    "NetPay": 4580.49
+  }
+}

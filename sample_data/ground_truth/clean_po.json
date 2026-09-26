@@ -1,0 +1,14 @@
+{
+  "document_type": "purchase_order",
+  "description": "Clean matching purchase order",
+  "fields": {
+    "VendorName": "Contoso Logistics Inc.",
+    "DocumentNumber": "PO-2024-8821",
+    "InvoiceDate": "2024-03-15",
+    "DueDate": "2024-04-15",
+    "CustomerName": "Acme Enterprise Corp",
+    "Subtotal": 900.0,
+    "TotalTax": 72.0,
+    "InvoiceTotal": 972.0
+  }
+}

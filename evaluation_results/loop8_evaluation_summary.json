@@ -1,0 +1,559 @@
+{
+  "sample_count": 6,
+  "overall_precision": 1.0,
+  "overall_recall": 0.7805,
+  "overall_f1": 0.8767,
+  "per_document": [
+    {
+      "document_id": "clean_invoice.pdf",
+      "field_results": {
+        "InvoiceDate": {
+          "status": "TP",
+          "extracted_value": "2024-03-15",
+          "ground_truth_value": "2024-03-15",
+          "confidence": 0.96
+        },
+        "TotalTax": {
+          "status": "TP",
+          "extracted_value": 72.0,
+          "ground_truth_value": 72.0,
+          "confidence": 0.953
+        },
+        "InvoiceTotal": {
+          "status": "TP",
+          "extracted_value": 972.0,
+          "ground_truth_value": 972.0,
+          "confidence": 0.972
+        },
+        "Subtotal": {
+          "status": "TP",
+          "extracted_value": 900.0,
+          "ground_truth_value": 900.0,
+          "confidence": 0.964
+        },
+        "VendorName": {
+          "status": "TP",
+          "extracted_value": "Contoso Logistics Inc.",
+          "ground_truth_value": "Contoso Logistics Inc.",
+          "confidence": 0.982
+        },
+        "CustomerName": {
+          "status": "TP",
+          "extracted_value": "Acme Enterprise Corp",
+          "ground_truth_value": "Acme Enterprise Corp",
+          "confidence": 0.965
+        },
+        "DueDate": {
+          "status": "TP",
+          "extracted_value": "2024-04-15",
+          "ground_truth_value": "2024-04-15",
+          "confidence": 0.964
+        },
+        "InvoiceId": {
+          "status": "TP",
+          "extracted_value": "INV-2024-9841",
+          "ground_truth_value": "INV-2024-9841",
+          "confidence": 0.974
+        }
+      },
+      "metrics": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "document_id": "clean_receipt.png",
+      "field_results": {
+        "TotalTax": {
+          "status": "TP",
+          "extracted_value": 0.85,
+          "ground_truth_value": 0.85,
+          "confidence": 0.936
+        },
+        "Subtotal": {
+          "status": "TP",
+          "extracted_value": 10.0,
+          "ground_truth_value": 10.0,
+          "confidence": 0.941
+        },
+        "InvoiceTotal": {
+          "status": "TP",
+          "extracted_value": 10.85,
+          "ground_truth_value": 10.85,
+          "confidence": 0.953
+        },
+        "TransactionDate": {
+          "status": "TP",
+          "extracted_value": "2024-04-02",
+          "ground_truth_value": "2024-04-02",
+          "confidence": 0.968
+        },
+        "MerchantName": {
+          "status": "TP",
+          "extracted_value": "STARBUCKS COFFEE #1042",
+          "ground_truth_value": "Starbucks Coffee",
+          "confidence": 0.848
+        }
+      },
+      "metrics": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "document_id": "clean_po.pdf",
+      "field_results": {
+        "InvoiceDate": {
+          "status": "TP",
+          "extracted_value": "2024-03-15",
+          "ground_truth_value": "2024-03-15",
+          "confidence": 0.965
+        },
+        "TotalTax": {
+          "status": "TP",
+          "extracted_value": 72.0,
+          "ground_truth_value": 72.0,
+          "confidence": 0.953
+        },
+        "InvoiceTotal": {
+          "status": "TP",
+          "extracted_value": 972.0,
+          "ground_truth_value": 972.0,
+          "confidence": 0.969
+        },
+        "Subtotal": {
+          "status": "TP",
+          "extracted_value": 900.0,
+          "ground_truth_value": 900.0,
+          "confidence": 0.968
+        },
+        "VendorName": {
+          "status": "TP",
+          "extracted_value": "Contoso Logistics Inc.",
+          "ground_truth_value": "Contoso Logistics Inc.",
+          "confidence": 0.981
+        },
+        "CustomerName": {
+          "status": "TP",
+          "extracted_value": "Acme Enterprise Corp",
+          "ground_truth_value": "Acme Enterprise Corp",
+          "confidence": 0.98
+        },
+        "DueDate": {
+          "status": "TP",
+          "extracted_value": "2024-04-15",
+          "ground_truth_value": "2024-04-15",
+          "confidence": 0.958
+        },
+        "DocumentNumber": {
+          "status": "TP",
+          "extracted_value": "PO-2024-8821",
+          "ground_truth_value": "PO-2024-8821",
+          "confidence": 0.972
+        }
+      },
+      "metrics": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "document_id": "clean_agreement.docx",
+      "field_results": {
+        "VendorName": {
+          "status": "TP",
+          "extracted_value": "Apex Technologies LLC",
+          "ground_truth_value": "Apex Technologies LLC",
+          "confidence": 0.967
+        },
+        "DocumentNumber": {
+          "status": "TP",
+          "extracted_value": "AGR-2024-5502",
+          "ground_truth_value": "AGR-2024-5502",
+          "confidence": 0.969
+        }
+      },
+      "metrics": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "document_id": "clean_payslip.png",
+      "field_results": {
+        "PayPeriodStart": {
+          "status": "TP",
+          "extracted_value": "2024-03-01",
+          "ground_truth_value": "2024-03-01",
+          "confidence": 0.969
+        },
+        "NetPay": {
+          "status": "TP",
+          "extracted_value": 4580.49,
+          "ground_truth_value": 4580.49,
+          "confidence": 0.955
+        },
+        "TotalDeductions": {
+          "status": "TP",
+          "extracted_value": 3207.01,
+          "ground_truth_value": 3207.01,
+          "confidence": 0.971
+        },
+        "Department": {
+          "status": "TP",
+          "extracted_value": "Engineering",
+          "ground_truth_value": "Engineering",
+          "confidence": 0.977
+        },
+        "GrossPay": {
+          "status": "TP",
+          "extracted_value": 7787.5,
+          "ground_truth_value": 7787.5,
+          "confidence": 0.969
+        },
+        "PayPeriodEnd": {
+          "status": "TP",
+          "extracted_value": "2024-03-31",
+          "ground_truth_value": "2024-03-31",
+          "confidence": 0.978
+        },
+        "EmployeeName": {
+          "status": "TP",
+          "extracted_value": "Sarah Chen",
+          "ground_truth_value": "Sarah Chen",
+          "confidence": 0.978
+        },
+        "EmployeeId": {
+          "status": "TP",
+          "extracted_value": "EMP-2024-0471",
+          "ground_truth_value": "EMP-2024-0471",
+          "confidence": 0.965
+        },
+        "PayDate": {
+          "status": "TP",
+          "extracted_value": "2024-04-05",
+          "ground_truth_value": "2024-04-05",
+          "confidence": 0.969
+        }
+      },
+      "metrics": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "document_id": "degraded_payslip.jpg",
+      "field_results": {
+        "PayPeriodStart": {
+          "status": "FN",
+          "extracted_value": null,
+          "ground_truth_value": "2024-03-01",
+          "confidence": 0.0
+        },
+        "NetPay": {
+          "status": "FN",
+          "extracted_value": null,
+          "ground_truth_value": 4580.49,
+          "confidence": 0.0
+        },
+        "TotalDeductions": {
+          "status": "FN",
+          "extracted_value": null,
+          "ground_truth_value": 3207.01,
+          "confidence": 0.0
+        },
+        "Department": {
+          "status": "FN",
+          "extracted_value": null,
+          "ground_truth_value": "Engineering",
+          "confidence": 0.0
+        },
+        "GrossPay": {
+          "status": "FN",
+          "extracted_value": null,
+          "ground_truth_value": 7787.5,
+          "confidence": 0.0
+        },
+        "PayPeriodEnd": {
+          "status": "FN",
+          "extracted_value": null,
+          "ground_truth_value": "2024-03-31",
+          "confidence": 0.0
+        },
+        "EmployeeName": {
+          "status": "FN",
+          "extracted_value": null,
+          "ground_truth_value": "Sarah Chen",
+          "confidence": 0.0
+        },
+        "EmployeeId": {
+          "status": "FN",
+          "extracted_value": null,
+          "ground_truth_value": "EMP-2024-0471",
+          "confidence": 0.0
+        },
+        "PayDate": {
+          "status": "FN",
+          "extracted_value": null,
+          "ground_truth_value": "2024-04-05",
+          "confidence": 0.0
+        }
+      },
+      "metrics": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 9
+      }
+    }
+  ],
+  "fields": {
+    "InvoiceDate": {
+      "field_type": "DATE",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "n_ground_truth": 2,
+      "n_extracted": 2
+    },
+    "TotalTax": {
+      "field_type": "NUMERIC",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "n_ground_truth": 3,
+      "n_extracted": 3
+    },
+    "InvoiceTotal": {
+      "field_type": "NUMERIC",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "n_ground_truth": 3,
+      "n_extracted": 3
+    },
+    "Subtotal": {
+      "field_type": "NUMERIC",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "n_ground_truth": 3,
+      "n_extracted": 3
+    },
+    "VendorName": {
+      "field_type": "FREE_TEXT",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "n_ground_truth": 3,
+      "n_extracted": 3
+    },
+    "CustomerName": {
+      "field_type": "FREE_TEXT",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "n_ground_truth": 2,
+      "n_extracted": 2
+    },
+    "DueDate": {
+      "field_type": "DATE",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "n_ground_truth": 2,
+      "n_extracted": 2
+    },
+    "InvoiceId": {
+      "field_type": "IDENTIFIER",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_ground_truth": 1,
+      "n_extracted": 1
+    },
+    "TransactionDate": {
+      "field_type": "DATE",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_ground_truth": 1,
+      "n_extracted": 1
+    },
+    "MerchantName": {
+      "field_type": "FREE_TEXT",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_ground_truth": 1,
+      "n_extracted": 1
+    },
+    "DocumentNumber": {
+      "field_type": "IDENTIFIER",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "n_ground_truth": 2,
+      "n_extracted": 2
+    },
+    "PayPeriodStart": {
+      "field_type": "DATE",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_ground_truth": 2,
+      "n_extracted": 1
+    },
+    "NetPay": {
+      "field_type": "NUMERIC",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_ground_truth": 2,
+      "n_extracted": 1
+    },
+    "TotalDeductions": {
+      "field_type": "NUMERIC",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_ground_truth": 2,
+      "n_extracted": 1
+    },
+    "Department": {
+      "field_type": "FREE_TEXT",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_ground_truth": 2,
+      "n_extracted": 1
+    },
+    "GrossPay": {
+      "field_type": "NUMERIC",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_ground_truth": 2,
+      "n_extracted": 1
+    },
+    "PayPeriodEnd": {
+      "field_type": "DATE",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_ground_truth": 2,
+      "n_extracted": 1
+    },
+    "EmployeeName": {
+      "field_type": "FREE_TEXT",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_ground_truth": 2,
+      "n_extracted": 1
+    },
+    "EmployeeId": {
+      "field_type": "IDENTIFIER",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_ground_truth": 2,
+      "n_extracted": 1
+    },
+    "PayDate": {
+      "field_type": "DATE",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_ground_truth": 2,
+      "n_extracted": 1
+    }
+  },
+  "calibration": {
+    "High ([0.90, 1.00])": {
+      "total_count": 31,
+      "correct_count": 31,
+      "accuracy": 1.0,
+      "mean_confidence": 0.966,
+      "gap": 0.034
+    },
+    "Medium ([0.75, 0.90))": {
+      "total_count": 1,
+      "correct_count": 1,
+      "accuracy": 1.0,
+      "mean_confidence": 0.848,
+      "gap": 0.152
+    },
+    "Low / Escalated ([0.00, 0.75))": {
+      "total_count": 0,
+      "correct_count": 0,
+      "accuracy": 0.0,
+      "mean_confidence": 0.0,
+      "gap": 0.0
+    }
+  }
+}

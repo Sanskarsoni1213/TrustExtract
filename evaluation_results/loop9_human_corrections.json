@@ -1,0 +1,66 @@
+[
+  {
+    "document_id": "degraded_payslip.jpg",
+    "field_name": "EmployeeName",
+    "original_extracted_value": null,
+    "corrected_value": "Sarah Chen",
+    "evidence_bbox": [
+      120.0,
+      110.0,
+      150.0,
+      22.0
+    ],
+    "reviewer_id": "human_auditor_01",
+    "timestamp": "2026-09-26T10:10:10.126062+00:00",
+    "notes": "Recovered employee name from low-contrast payslip header.",
+    "is_spurious_fp": false
+  },
+  {
+    "document_id": "degraded_payslip.jpg",
+    "field_name": "GrossPay",
+    "original_extracted_value": null,
+    "corrected_value": 7787.5,
+    "evidence_bbox": [
+      410.0,
+      310.0,
+      85.0,
+      20.0
+    ],
+    "reviewer_id": "human_auditor_01",
+    "timestamp": "2026-09-26T10:10:10.126074+00:00",
+    "notes": "Verified gross pay earnings column total.",
+    "is_spurious_fp": false
+  },
+  {
+    "document_id": "degraded_payslip.jpg",
+    "field_name": "NetPay",
+    "original_extracted_value": null,
+    "corrected_value": 4580.49,
+    "evidence_bbox": [
+      410.0,
+      480.0,
+      85.0,
+      20.0
+    ],
+    "reviewer_id": "human_auditor_02",
+    "timestamp": "2026-09-26T10:10:10.126078+00:00",
+    "notes": "Verified net pay take-home figure from remittance summary.",
+    "is_spurious_fp": false
+  },
+  {
+    "document_id": "clean_receipt.png",
+    "field_name": "MerchantName",
+    "original_extracted_value": "STARBUCKS COFFEE #1042",
+    "corrected_value": "Starbucks Coffee",
+    "evidence_bbox": [
+      349.0,
+      80.0,
+      131.0,
+      15.0
+    ],
+    "reviewer_id": "human_auditor_03",
+    "timestamp": "2026-09-26T10:10:10.126081+00:00",
+    "notes": "Canonicalized retail store branch identifier to official merchant brand.",
+    "is_spurious_fp": false
+  }
+]

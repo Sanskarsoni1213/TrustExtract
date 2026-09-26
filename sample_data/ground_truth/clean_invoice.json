@@ -1,0 +1,14 @@
+{
+  "document_type": "invoice",
+  "description": "Standard clean corporate invoice",
+  "fields": {
+    "VendorName": "Contoso Logistics Inc.",
+    "InvoiceId": "INV-2024-9841",
+    "InvoiceDate": "2024-03-15",
+    "DueDate": "2024-04-15",
+    "CustomerName": "Acme Enterprise Corp",
+    "Subtotal": 900.0,
+    "TotalTax": 72.0,
+    "InvoiceTotal": 972.0
+  }
+}

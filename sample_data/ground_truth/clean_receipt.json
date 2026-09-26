@@ -1,0 +1,11 @@
+{
+  "document_type": "receipt",
+  "description": "Clean retail coffee merchant receipt",
+  "fields": {
+    "MerchantName": "Starbucks Coffee",
+    "TransactionDate": "2024-04-02",
+    "Subtotal": 10.0,
+    "TotalTax": 0.85,
+    "InvoiceTotal": 10.85
+  }
+}
